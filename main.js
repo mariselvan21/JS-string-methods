@@ -75,7 +75,7 @@ console.log(upperCase);
 console.log('JavaScript String concat()');
 var fname='ajith';
 var lname='kumar';
-var fullName=fname.concat(' ',lname);
+var fullName='ajith'.concat(' ','kumar');
 console.log(fullName);
 // concat two or more strings
 console.log('concat two or more strings');
@@ -114,7 +114,7 @@ console.log('length '+sentence2.length);
 console.log('JavaScript String Padding');
 //ECMAScript 2017 added two String methods: padStart() and padEnd() to support padding at the beginning and at the end of a string.
 // padStart()
-var text1="5";
+var text1="45";
 var text2=text1.padStart(6,'a');
 console.log(text2);
 
@@ -142,7 +142,7 @@ var text2=text1.padEnd(6,'0');
 console.log(text2);
 
 // number padEnd()
-var num=5;
+var num=54;
 var text1=num.toString();
 var text2=text1.padEnd(6,'b');
 console.log(text2);
@@ -166,7 +166,7 @@ console.log(letter);
 // The method returns a UTF-16 code (an integer between 0 and 65535).
 
 var name3='Kamarajar';
-var number=name3.charCodeAt(2);
+var number=name3.charCodeAt(1);
 console.log(number);//    DOUGHT
 
 
